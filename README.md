@@ -12,3 +12,7 @@ A new Flutter project.
 - Criado novo arquivo input_page.dart para criar o design da página principal, com dois containers superiores, um central e dois inferiores;
 - Criado novo Widget ReusableCard() para chamar cada card separadamente;
 - Criado construtor colour para ser adicionado ao ReusableCard(), para poder alterar a cor de cada card.
+
+# Aula 3 - 1.0.2
+- Adicionado variáveis para armazenar altura do botão no bottom, cor dos cards e cor do botão no bottom;
+- Adicionado botão bottom.
