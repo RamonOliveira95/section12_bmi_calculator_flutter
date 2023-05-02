@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:section12_bmi_calculator_flutter/icon_content.dart';
 
 const bottomContainerHeih = 80.0;
 const activeCardColour = Color(0xFF1D1E33);
@@ -77,32 +78,7 @@ class _InputPageState extends State<InputPage> {
   }
 }
 
-class iconContent extends StatelessWidget {
-  iconContent({required this.icon, required this.label});
 
-  final IconData icon;
-  final String label;
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Icon(
-          icon,
-          size: 80,
-        ),
-        const SizedBox(
-          height: 15,
-        ),
-        Text(
-          label,
-          style: const TextStyle(fontSize: 18, color: Color(0xFF8D8E98)),
-        ),
-      ],
-    );
-  }
-}
 
 class ReusableCard extends StatelessWidget {
   const ReusableCard({super.key, required this.colour, this.cardChild});
