@@ -18,4 +18,5 @@ A new Flutter project.
 - Adicionado botão bottom.
 
 # Aula 4 - 1.1
-feat: ✨ Add Male Button
+- feat: ✨ add male button;
+- feat: ✨ add female button;

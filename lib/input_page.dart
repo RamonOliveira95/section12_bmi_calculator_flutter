@@ -22,16 +22,23 @@ class _InputPageState extends State<InputPage> {
         children: [
           Expanded(
             child: Row(
-              children: const [
+              children: [
                 Expanded(
                   child: ReusableCard(
                     colour: activeCardColour,
-                    cardChild: iconContent(),
+                    cardChild: iconContent(
+                      label: 'MALE',
+                      icon: FontAwesomeIcons.mars,
+                    ),
                   ),
                 ),
                 Expanded(
                   child: ReusableCard(
                     colour: activeCardColour,
+                    cardChild: iconContent(
+                      icon: FontAwesomeIcons.venus,
+                      label: 'FEMALE',
+                    ),
                   ),
                 ),
               ],
@@ -71,7 +78,10 @@ class _InputPageState extends State<InputPage> {
 }
 
 class iconContent extends StatelessWidget {
-  const iconContent({super.key});
+  iconContent({required this.icon, required this.label});
+
+  final IconData icon;
+  final String label;
 
   @override
   Widget build(BuildContext context) {
@@ -79,15 +89,15 @@ class iconContent extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Icon(
-          FontAwesomeIcons.mars,
+          icon,
           size: 80,
         ),
-        SizedBox(
+        const SizedBox(
           height: 15,
         ),
         Text(
-          'MALE',
-          style: TextStyle(fontSize: 18, color: Color(0xFF8D8E98)),
+          label,
+          style: const TextStyle(fontSize: 18, color: Color(0xFF8D8E98)),
         ),
       ],
     );
