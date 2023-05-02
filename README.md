@@ -20,4 +20,5 @@ A new Flutter project.
 # Aula 4 - 1.1
 - feat: ✨ add male button;
 - feat: ✨ add female button;
-- refactor: ♻️ create icon_content.dart file
+- refactor: ♻️ create icon_content.dart file;
+- refactor: ♻️ create reusable_card.dart file;
