@@ -24,3 +24,6 @@ A new Flutter project.
 - refactor: ♻️ create reusable_card.dart file;
 - feat: ✨ add variable to receive a textStyle;
 - style: 🎨 changed name class to UpperCamelCase style.
+
+# Aula 5 - 1.2
+- style: 💄 change male or female button color;
