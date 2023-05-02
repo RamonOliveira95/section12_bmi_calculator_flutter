@@ -27,3 +27,4 @@ A new Flutter project.
 
 # Aula 5 - 1.2
 - style: 💄 change male or female button color;
+- fix: 🐛 now just one button can be chosen.
