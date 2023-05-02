@@ -16,3 +16,6 @@ A new Flutter project.
 # Aula 3 - 1.0.2
 - Adicionado variáveis para armazenar altura do botão no bottom, cor dos cards e cor do botão no bottom;
 - Adicionado botão bottom.
+
+# Aula 4 - 1.1
+feat: ✨ Add Male Button
