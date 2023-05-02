@@ -22,3 +22,4 @@ A new Flutter project.
 - feat: ✨ add female button;
 - refactor: ♻️ create icon_content.dart file;
 - refactor: ♻️ create reusable_card.dart file;
+- feat: ✨ add variable to receive a textStyle;
