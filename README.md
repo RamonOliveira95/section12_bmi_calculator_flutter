@@ -23,3 +23,4 @@ A new Flutter project.
 - refactor: ♻️ create icon_content.dart file;
 - refactor: ♻️ create reusable_card.dart file;
 - feat: ✨ add variable to receive a textStyle;
+- style: 🎨 changed name class to UpperCamelCase style.

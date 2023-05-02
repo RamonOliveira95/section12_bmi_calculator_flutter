@@ -5,8 +5,8 @@ const labelTextStyle = TextStyle(
   color: Color(0xFF8D8E98),
 );
 
-class iconContent extends StatelessWidget {
-  iconContent({required this.icon, required this.label});
+class IconContent extends StatelessWidget {
+  IconContent({required this.icon, required this.label});
 
   final IconData icon;
   final String label;
