@@ -8,29 +8,33 @@ const activeCardColour = Color(0xFF1D1E33);
 const inactiveCardColour = Color(0xFF111328);
 const bottomContainerColour = Color(0xFFEB1555);
 
+enum Gender {
+  male,
+  female,
+}
+
 class InputPage extends StatefulWidget {
   @override
   _InputPageState createState() => _InputPageState();
 }
 
 class _InputPageState extends State<InputPage> {
-
   Color maleCardColor = inactiveCardColour;
   Color femaleCardColor = inactiveCardColour;
 
-  void updateColour(int gender) {
-    if(gender == 1) {
-      if(maleCardColor == inactiveCardColour){
+  void updateColour(Gender selectedGender) {
+    if (selectedGender == Gender.male) {
+      if (maleCardColor == inactiveCardColour) {
         maleCardColor = activeCardColour;
         femaleCardColor = inactiveCardColour;
-      }else {
+      } else {
         maleCardColor = inactiveCardColour;
       }
-    } else if(gender == 2) {
-      if(femaleCardColor == inactiveCardColour){
+    } else if (selectedGender == Gender.female) {
+      if (femaleCardColor == inactiveCardColour) {
         femaleCardColor = activeCardColour;
         maleCardColor = inactiveCardColour;
-      }else {
+      } else {
         femaleCardColor = inactiveCardColour;
       }
     }
@@ -50,9 +54,9 @@ class _InputPageState extends State<InputPage> {
               children: [
                 Expanded(
                   child: GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
-                        updateColour(1);
+                        updateColour(Gender.male);
                       });
                     },
                     child: ReusableCard(
@@ -66,9 +70,9 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
-                        updateColour(2);
+                        updateColour(Gender.female);
                       });
                     },
                     child: ReusableCard(
