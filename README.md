@@ -42,3 +42,4 @@ A new Flutter project.
 - refactor: ♻️ created new file to constants;
 - refactor: ♻️ renamed constants variables;
 - feat: ✨ add center widget;
+- feat: ✨ add slider to center widget.
