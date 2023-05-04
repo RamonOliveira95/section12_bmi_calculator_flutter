@@ -31,3 +31,6 @@ A new Flutter project.
 
 # Aula 6 - 1.3
 - refactor: ♻️ create enums to choose.
+
+# Aula 7 - 1.4
+- refactor: ♻️ changed the conditionals to ternary operator.
