@@ -34,3 +34,6 @@ A new Flutter project.
 
 # Aula 7 - 1.4
 - refactor: ♻️ changed the conditionals to ternary operator.
+
+# Aula 8 - 1.5
+- refactor: ♻️ refactored
