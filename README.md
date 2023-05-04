@@ -36,7 +36,8 @@ A new Flutter project.
 - refactor: ♻️ changed the conditionals to ternary operator.
 
 # Aula 8 - 1.5
-- refactor: ♻️ refactored
+- refactor: ♻️ refactored.
 
 # Aula 9 - 1.6
-- refactor: ♻️ created new file to constants
+- refactor: ♻️ created new file to constants;
+- refactor: ♻️ renamed constants variables;
