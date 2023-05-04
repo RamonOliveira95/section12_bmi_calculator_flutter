@@ -46,3 +46,6 @@ A new Flutter project.
 
 # Aula 10 - 1.7
 - style: 💄 add style on slider.
+
+# Aula 11 - 1.8
+- feat: ✨ add weight field;
