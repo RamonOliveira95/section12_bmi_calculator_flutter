@@ -37,3 +37,6 @@ A new Flutter project.
 
 # Aula 8 - 1.5
 - refactor: ♻️ refactored
+
+# Aula 9 - 1.6
+- refactor: ♻️ created new file to constants
