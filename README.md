@@ -41,3 +41,4 @@ A new Flutter project.
 # Aula 9 - 1.6
 - refactor: ♻️ created new file to constants;
 - refactor: ♻️ renamed constants variables;
+- feat: ✨ add center widget;
