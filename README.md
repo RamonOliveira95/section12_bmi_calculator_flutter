@@ -43,3 +43,6 @@ A new Flutter project.
 - refactor: ♻️ renamed constants variables;
 - feat: ✨ add center widget;
 - feat: ✨ add slider to center widget.
+
+# Aula 10 - 1.7
+- style: 💄 add style on slider.
