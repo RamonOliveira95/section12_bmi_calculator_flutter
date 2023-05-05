@@ -57,4 +57,5 @@ A new Flutter project.
 - style: 💄 result page;
 - refactor: ♻️ bottom_button widget;
 - refactor: ♻️ round_icon_button widget;
-- refactor: ♻️ separeted in folders;
+- refactor: ♻️ separated in folders;
+- style: 💄 result page.
