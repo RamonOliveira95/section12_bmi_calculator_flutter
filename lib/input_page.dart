@@ -4,6 +4,7 @@ import 'package:section12_bmi_calculator_flutter/bottom_button.dart';
 import 'package:section12_bmi_calculator_flutter/contants.dart';
 import 'package:section12_bmi_calculator_flutter/icon_content.dart';
 import 'package:section12_bmi_calculator_flutter/reusable_card.dart';
+import 'package:section12_bmi_calculator_flutter/roud_icon_button.dart';
 
 enum Gender {
   male,
@@ -229,24 +230,4 @@ class _InputPageState extends State<InputPage> {
   }
 }
 
-class RoundIconButton extends StatelessWidget {
-  RoundIconButton({required this.icon, required this.onPress});
 
-  final IconData icon;
-  final Function? onPress;
-
-  @override
-  Widget build(BuildContext context) {
-    return RawMaterialButton(
-      onPressed: onPress != null ? () => onPress!() : null,
-      elevation: 0.0,
-      constraints: const BoxConstraints.tightFor(
-        width: 56,
-        height: 56,
-      ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-      fillColor: const Color(0xFF4C4F5E),
-      child: Icon(icon),
-    );
-  }
-}

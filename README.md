@@ -56,3 +56,4 @@ A new Flutter project.
 - style: 💄 calculate button;
 - style: 💄 result page;
 - refactor: ♻️ bottom_button widget;
+- refactor: ♻️ round_icon_button widget;
