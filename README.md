@@ -50,3 +50,6 @@ A new Flutter project.
 # Aula 11 - 1.8
 - feat: ✨ add weight field;
 - feat: ✨ add age field.
+
+# Aula 12 - 1.9
+- feat: ✨ add routes and results page;
