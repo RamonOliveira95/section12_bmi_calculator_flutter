@@ -54,3 +54,4 @@ A new Flutter project.
 # Aula 12 - 1.9
 - feat: ✨ add routes and results page;
 - style: 💄 calculate button;
+- style: 💄 result page;
