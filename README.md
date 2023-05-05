@@ -55,3 +55,4 @@ A new Flutter project.
 - feat: ✨ add routes and results page;
 - style: 💄 calculate button;
 - style: 💄 result page;
+- refactor: ♻️ bottom_button widget;

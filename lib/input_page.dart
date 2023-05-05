@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:section12_bmi_calculator_flutter/bottom_button.dart';
 import 'package:section12_bmi_calculator_flutter/contants.dart';
 import 'package:section12_bmi_calculator_flutter/icon_content.dart';
 import 'package:section12_bmi_calculator_flutter/reusable_card.dart';
@@ -223,32 +224,6 @@ class _InputPageState extends State<InputPage> {
             },
           ),
         ],
-      ),
-    );
-  }
-}
-
-class BottomButton extends StatelessWidget {
-  BottomButton({required this.onTapp, required this.buttonTitle});
-
-  final Function onTapp;
-  final String buttonTitle;
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTapp != null ? () => onTapp() : null,
-      child: Container(
-        color: kBottomContainerColour,
-        margin: const EdgeInsets.only(top: 10),
-        width: double.infinity,
-        height: kBottomContainerHeih,
-        child: Center(
-          child: Text(
-            buttonTitle,
-            style: kLargeButtonTextStyle,
-          ),
-        ),
       ),
     );
   }
