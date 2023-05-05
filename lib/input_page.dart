@@ -225,7 +225,12 @@ class _InputPageState extends State<InputPage> {
               margin: const EdgeInsets.only(top: 10),
               width: double.infinity,
               height: kBottomContainerHeih,
-              child: const Text('CALCULATE'),
+              child: const Center(
+                child: Text(
+                  'CALCULATE',
+                  style: kLargeButtonTextStyle,
+                ),
+              ),
             ),
           ),
         ],
