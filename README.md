@@ -49,3 +49,4 @@ A new Flutter project.
 
 # Aula 11 - 1.8
 - feat: ✨ add weight field;
+- feat: ✨ add age field.
