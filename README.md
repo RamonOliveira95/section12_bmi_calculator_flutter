@@ -59,3 +59,6 @@ A new Flutter project.
 - refactor: ♻️ round_icon_button widget;
 - refactor: ♻️ separated in folders;
 - style: 💄 result page.
+
+# Aula 13 - 1.10
+- feat: ✨ result complete page.

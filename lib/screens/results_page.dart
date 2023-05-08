@@ -1,17 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:section12_bmi_calculator_flutter/components/bottom_button.dart';
+import 'package:section12_bmi_calculator_flutter/components/reusable_card.dart';
 import 'package:section12_bmi_calculator_flutter/contants.dart';
-import 'package:section12_bmi_calculator_flutter/reusable_card.dart';
 
 class ResultsPage extends StatelessWidget {
-  const ResultsPage({super.key});
+  ResultsPage({
+    required this.interpretation,
+    required this.bmiResult,
+    required this.resultText,
+  });
+
+  final String bmiResult;
+  final String resultText;
+  final String interpretation;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kActiveCardColour,
-        title: Text('BMI CALCULATOR'),
+        title: const Text('BMI CALCULATOR'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -36,15 +44,15 @@ class ResultsPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    'Normal',
+                    resultText.toUpperCase(),
                     style: kResultTextStyle,
                   ),
                   Text(
-                    '18.3',
+                    bmiResult,
                     style: kBMITextStyle,
                   ),
                   Text(
-                    'Your BMI is low',
+                    interpretation,
                     style: kBodyTextStyle,
                     textAlign: TextAlign.center,
                   ),
